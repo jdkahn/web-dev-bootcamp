@@ -10,10 +10,19 @@
 <body>
   <form>
     <label for="username">Username: </label>
-    <input type="text" name="username" id="username">
+    <input type="text" name="username" id="username" required>
     <label for="pwd">Password: </label>
     <input type="password" name="pwd" id="pwd">
     <input type="submit" value="Submit">
   </form>  
+
+  <form>
+      <div>Gender: </div>
+      <label for="male">Male: </label>      
+      <input type="radio" name="gender" id="male" value="MALE">
+      <label for="female">Female: </label>
+      <input type="radio" name="gender" id="female" value="FEMALE">
+      <input type="submit" value="Submit">
+    </form>  
 </body>
 </html>
